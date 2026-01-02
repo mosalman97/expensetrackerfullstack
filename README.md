@@ -6,13 +6,10 @@ A full-stack expense tracking mobile application with secure authentication, rea
 
 📸 Screenshots
 
-(Add your app screenshots here)
-Place images inside a /screenshots folder and update paths below.
-
-![Login Screen]("https://i.ibb.co/B59DVwZm/IMG-2577.png")
-![Home Screen]("https://i.ibb.co/9HT5LvYm/IMG-2578.png")
-![Add Transaction]("https://i.ibb.co/jSMZQgd/IMG-2575.png")
-![Add Transaction]("https://i.ibb.co/TMYKMb0C/IMG-2576.png")
+![SignUp Screen]("screenshots/create.PNG")
+![SignIn Screen]("screenshots/sign.PNG")
+![Home Screen]("screenshots/home.PNG")
+![Add Screen]("screenshots/add.PNG")
 
 🚀 Overview
 
@@ -94,7 +91,6 @@ Implemented rate limiting using Redis
 Clean separation of frontend & backend
 
 Mobile-first UX with real-world auth flow
-
 
 ⚙️ Run the Backend
 cd backend
