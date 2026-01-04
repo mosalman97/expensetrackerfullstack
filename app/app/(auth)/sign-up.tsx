@@ -5,7 +5,7 @@ import { Link, useRouter } from "expo-router";
 import { Image } from "expo-image";
 import { Ionicons } from "@expo/vector-icons";
 import { styles } from "../../assets/styles/auth.styles.js";
-import { COLORS } from "@/constants/colors.js";
+import { COLORS } from "../../constants/colors";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 
 export default function SignUpScreen() {

@@ -57,9 +57,9 @@ export default function Page() {
 			<View style={styles.container}>
 				<Image
 					style={styles.illustration}
-					source={require("../../assets/images/revenue-i3.png")}
+					source={require("../../assets/images/revenue-i2.png")}
 				/>
-				<Text style={styles.title}>Welcome Back</Text>
+				<Text style={styles.title}>Forgot Password</Text>
 				{error ? (
 					<View style={styles.errorBox}>
 						<Ionicons
@@ -85,43 +85,9 @@ export default function Page() {
 					style={[styles.input, error && styles.errorInput]}
 					placeholderTextColor="#9A8478"
 				/>
-				<TextInput
-					value={password}
-					placeholder="Enter your Password"
-					onChangeText={(password) => setPassword(password)}
-					style={[styles.input, error && styles.errorInput]}
-					placeholderTextColor="#9A8478"
-					secureTextEntry={true}
-				/>
 				<TouchableOpacity onPress={onSignInPress} style={styles.button}>
-					<Text style={styles.buttonText}>Sign In</Text>
+					<Text style={styles.buttonText}>Reset Password</Text>
 				</TouchableOpacity>
-				<View
-					style={{
-						display: "flex",
-						flexDirection: "row",
-						justifyContent: "center",
-						marginBottom: 8,
-					}}
-				>
-					<Text style={styles.footerText}>
-						Don&apos;t have and account?{" "}
-					</Text>
-					<Link href="/sign-up">
-						<Text style={styles.linkText}>Sign Up</Text>
-					</Link>
-				</View>
-				<View
-					style={{
-						display: "flex",
-						flexDirection: "row",
-						justifyContent: "center",
-					}}
-				>
-					<Link href="/forgot-password">
-						<Text style={styles.linkText}>Forgot Password</Text>
-					</Link>
-				</View>
 			</View>
 		</KeyboardAwareScrollView>
 	);

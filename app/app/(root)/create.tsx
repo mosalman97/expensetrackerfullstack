@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import { useUser } from "@clerk/clerk-expo";
-import { API_URL } from "../../hooks/useTransactions.js";
+import { API_URL } from "../../hooks/useTransactions";
 import { styles } from "../../assets/styles/create.styles.js";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../../constants/colors";
