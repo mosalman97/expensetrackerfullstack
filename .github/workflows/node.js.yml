@@ -26,6 +26,3 @@ jobs:
             - name: Run tests
               working-directory: backend
               run: npm test --if-present
-
-            - name: Force CI failure (test)
-              run: exit 1
