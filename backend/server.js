@@ -20,6 +20,12 @@ app.get("/health", (req, res) => {
 	});
 });
 
+app.get("/", (req, res) => {
+	res.status(200).json({
+		message: "welcome to expense tracker App",
+	});
+});
+
 initDB().then(() => {
 	app.listen(PORT, () => {
 		console.log(`server is running under PORT:${PORT}`);
