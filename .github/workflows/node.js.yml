@@ -27,6 +27,3 @@ jobs:
         working-directory: backend
         run: npm test --if-present
 
-      - name: Start server check
-        working-directory: backend
-        run: node server.js
