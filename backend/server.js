@@ -22,7 +22,7 @@ app.get("/health", (req, res) => {
 
 app.get("/", (req, res) => {
 	res.status(200).json({
-		message: "welcome to expenseTracker",
+		message: "welcome 2026",
 	});
 });
 
